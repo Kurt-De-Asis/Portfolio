@@ -1,0 +1,11 @@
+# Robots.txt for Personal Portfolio
+
+# Allow all robots to index all pages
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Crawl delay to be respectful to servers
+Crawl-delay: 1
