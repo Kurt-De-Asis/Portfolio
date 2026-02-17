@@ -4,12 +4,12 @@ import { link } from 'fs';
 // Personal Information
 export const personalInfo: PersonalInfo = {
   name: 'Kurt Russel De Asis',
-  title: 'Software Engineer',
+  title: 'Software Developer',
   location: 'BLK 11 LOT 36, KANSAS ST. ROSADA SUBD, BRGY. TAGAPO, SANTA ROSA, LAGUNA',
   phone: '+639918690956',
   email: 'kurtrussel644@gmail.com',
   github: 'https://github.com/Kurt-De-Asis',
-  resumeUrl: '/resume.pdf'
+  resumeUrl: '/Kurt De Asis - CV.pdf'
 };
 
 // Navigation Items

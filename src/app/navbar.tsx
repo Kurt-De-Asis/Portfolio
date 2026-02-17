@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "./components/ThemeToggle";
 
 export default function Navbar() {
   return (

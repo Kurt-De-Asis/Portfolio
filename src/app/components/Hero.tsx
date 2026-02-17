@@ -37,7 +37,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 relative overflow-hidden">
+    <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 relative overflow-hidden pt-20 md:pt-0">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-violet-500/10 rounded-full blur-3xl animate-pulse" />
@@ -93,7 +93,7 @@ const Hero = () => {
           className="text-lg md:text-xl text-foreground/70 mb-12 max-w-3xl leading-relaxed"
           variants={itemVariants}
         >
-          Hardworking and passionate software engineer with strong organizational skills and a commitment to excellence. 
+          Hardworking and passionate software developer with strong organizational skills and a commitment to excellence. 
           Experienced in developing and maintaining software applications with a focus on clean code, user experience, 
           and system optimization.
         </motion.p>
@@ -114,7 +114,7 @@ const Hero = () => {
           </motion.button>
 
           <motion.button
-            onClick={() => window.open('/resume.pdf', '_blank')}
+            onClick={() => window.open(personalInfo.resumeUrl, '_blank')}
             className="group px-8 py-4 border-2 border-violet-600 hover:border-violet-400 hover:bg-violet-600/20 text-violet-400 font-semibold rounded-xl transition-all duration-300 transform hover:-translate-y-1"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
