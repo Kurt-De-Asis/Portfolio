@@ -4,12 +4,20 @@ import { link } from 'fs';
 // Personal Information
 export const personalInfo: PersonalInfo = {
   name: 'Kurt Russel De Asis',
+<<<<<<< HEAD
   title: 'Software Developer',
+=======
+  title: 'Software Engineer',
+>>>>>>> 2be695b97991fb5b082ea62c34e573dec9a6cee0
   location: 'BLK 11 LOT 36, KANSAS ST. ROSADA SUBD, BRGY. TAGAPO, SANTA ROSA, LAGUNA',
   phone: '+639918690956',
   email: 'kurtrussel644@gmail.com',
   github: 'https://github.com/Kurt-De-Asis',
+<<<<<<< HEAD
   resumeUrl: '/Kurt De Asis - CV.pdf'
+=======
+  resumeUrl: '/resume.pdf'
+>>>>>>> 2be695b97991fb5b082ea62c34e573dec9a6cee0
 };
 
 // Navigation Items
