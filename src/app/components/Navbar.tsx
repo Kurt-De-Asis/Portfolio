@@ -61,7 +61,7 @@ const Navbar = () => {
                 <motion.a
                   key={item.id}
                   href={item.href}
-                  className="text-white/80 dark:text-white/80 text-gray-700 hover:text-violet-400 dark:hover:text-violet-400 hover:text-violet-600 transition-colors duration-300 font-medium relative group"
+                  className="dark:text-white/80 text-gray-800 dark:hover:text-violet-400 hover:text-violet-600 transition-colors duration-300 font-medium relative group"
                   whileHover={{ y: -2 }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -81,9 +81,9 @@ const Navbar = () => {
                 aria-label="Toggle menu"
               >
                 {isOpen ? (
-                  <X className="w-6 h-6 text-violet-400" />
+                  <X className="w-6 h-6 text-violet-600 dark:text-violet-400" />
                 ) : (
-                  <Menu className="w-6 h-6 text-violet-400" />
+                  <Menu className="w-6 h-6 text-violet-600 dark:text-violet-400" />
                 )}
               </button>
             </div>
@@ -102,7 +102,7 @@ const Navbar = () => {
                   key={item.id}
                   href={item.href}
                   onClick={handleLinkClick}
-                  className="block py-2 text-lg text-white/80 dark:text-white/80 text-gray-700 hover:text-violet-400 dark:hover:text-violet-400 hover:text-violet-600 transition-colors"
+                  className="block py-2 text-lg dark:text-white/80 text-gray-800 dark:hover:text-violet-400 hover:text-violet-600 transition-colors"
                   whileHover={{ x: 10 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
