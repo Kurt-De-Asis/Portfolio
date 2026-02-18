@@ -4,12 +4,12 @@ import { link } from 'fs';
 // Personal Information
 export const personalInfo: PersonalInfo = {
   name: 'Kurt Russel De Asis',
-  title: 'Software Engineer',
+  title: 'Software Developer',
   location: 'BLK 11 LOT 36, KANSAS ST. ROSADA SUBD, BRGY. TAGAPO, SANTA ROSA, LAGUNA',
   phone: '+639918690956',
   email: 'kurtrussel644@gmail.com',
   github: 'https://github.com/Kurt-De-Asis',
-  resumeUrl: '/resume.pdf'
+  resumeUrl: '/Kurt De Asis - CV.pdf'
 };
 
 // Navigation Items
@@ -178,7 +178,7 @@ export const achievements: Achievement[] = [
 
 // Professional Summary
 export const professionalSummary = `
-Hardworking and passionate software engineer with strong organizational skills and a commitment to excellence. 
+Hardworking and passionate software developer with strong organizational skills and a commitment to excellence. 
 Experienced in developing and maintaining software applications with a focus on clean code, user experience, 
 and system optimization. Skilled in debugging and optimizing code for efficiency while maintaining high 
 standards of quality. Proven ability to collaborate effectively with teams and contribute to achieving 

@@ -14,7 +14,7 @@ export default function Hero() {
       </motion.h1>
 
       <p className="mt-6 text-gray-400 max-w-xl">
-        Backend-Focused Full Stack Engineer specializing in Go, secure APIs,
+        Backend-Focused Full Stack Developer specializing in Go, secure APIs,
         and scalable web architectures.
       </p>
 

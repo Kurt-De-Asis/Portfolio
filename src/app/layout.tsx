@@ -6,9 +6,9 @@ import ScrollProgress from "./components/ScrollProgress";
 import Chatbot from "./components/Chatbot";
 
 export const metadata = {
-  title: "Kurt Russel De Asis | Software Engineer",
-  description: "Professional portfolio of Kurt Russel De Asis - Software Engineer specializing in Go, Python, and modern web technologies.",
-  keywords: "Kurt Russel De Asis, Software Engineer, Go Developer, Python Developer, Full Stack Developer, Portfolio",
+  title: "Kurt Russel De Asis | Software Developer",
+  description: "Professional portfolio of Kurt Russel De Asis - Software Developer specializing in Go, Python, and modern web technologies.",
+  keywords: "Kurt Russel De Asis, Software Developer, Go Developer, Python Developer, Full Stack Developer, Portfolio",
   authors: [{ name: "Kurt Russel De Asis" }],
   creator: "Kurt Russel De Asis",
   publisher: "Kurt Russel De Asis",
@@ -21,8 +21,8 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://kurtdeasis.dev",
-    title: "Kurt Russel De Asis | Software Engineer",
-    description: "Professional portfolio of Kurt Russel De Asis - Software Engineer specializing in Go, Python, and modern web technologies.",
+    title: "Kurt Russel De Asis | Software Developer",
+    description: "Professional portfolio of Kurt Russel De Asis - Software Developer specializing in Go, Python, and modern web technologies.",
     siteName: "Kurt Russel De Asis Portfolio",
     images: [
       {
@@ -35,8 +35,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kurt Russel De Asis | Software Engineer",
-    description: "Professional portfolio of Kurt Russel De Asis - Software Engineer specializing in Go, Python, and modern web technologies.",
+    title: "Kurt Russel De Asis | Software Developer",
+    description: "Professional portfolio of Kurt Russel De Asis - Software Developer specializing in Go, Python, and modern web technologies.",
     images: ["/og-image.jpg"],
     creator: "@kurtdeasis",
   },
