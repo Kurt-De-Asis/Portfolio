@@ -93,7 +93,7 @@ const Hero = () => {
           className="text-lg md:text-xl text-foreground/70 mb-12 max-w-3xl leading-relaxed"
           variants={itemVariants}
         >
-          Hardworking and passionate software engineer with strong organizational skills and a commitment to excellence. 
+          Hardworking and passionate software developer with strong organizational skills and a commitment to excellence. 
           Experienced in developing and maintaining software applications with a focus on clean code, user experience, 
           and system optimization.
         </motion.p>
