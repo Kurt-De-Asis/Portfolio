@@ -118,10 +118,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-violet-800/20 mt-8 pt-8 text-center text-foreground/60 text-sm">
           <p>
-            &copy; {currentYear} Kurt Russel De Asis. Built with Next.js, TypeScript, and Tailwind CSS.
-          </p>
-          <p className="mt-2">
-            Designed for performance and accessibility.
+            &copy; {currentYear} Kurt Russel De Asis.
           </p>
         </div>
       </div>
